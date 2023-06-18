@@ -1,0 +1,570 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(76, 70, 70);
+    height: 2000px;
+    width: 100%;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+.exam1{
+    background-image: url(img4.jpeg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 100%;
+    box-shadow: 0px 0px 100px 0px rgb(235, 222, 222);
+}
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-weight: 8000;
+    font-size: 45px;
+    letter-spacing: 13px;
+}
+.exam1 .navbar{
+    position: sticky;
+    top: 7px;
+}
+ul{
+    list-style: none;
+    background-color: rgba(148, 129, 129, 0.561);
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    padding-left: 77px;
+    padding-right: 77px;
+}
+ul li a{
+    display: block;
+    padding: 20px 25px;
+    color: snow;
+    text-decoration: none;
+}
+ul li ul.dropdown li{
+    display: block;
+    padding-left: 25px;
+    color: snow;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background-color: rgba(148, 129, 129, 0.561);
+    position: absolute;
+    display: none;
+}
+ul li a:hover{
+    background-color: rgb(148, 129, 129);
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+ul li ul.dropdown li:hover{
+    background-color: rgb(148, 129, 129);
+    cursor: pointer;
+}
+
+/* navbar close here */
+/* text massege starting from here */
+.text{
+    background-color: rgba(255, 0, 0, 0); 
+    display: inline-block;
+    width: 500px;
+    height: 400px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.text #pa1{
+    margin-top: 80px;
+}
+.text #pa2{
+    /* background-color: green; */
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 273px;
+}
+/* text glowing effect */
+/* .text #pa1{
+    animation: 1s ease-in-out infinit alternate;
+}
+@-webkit-keyframes #pa2{
+    form{
+        text-shadow:0 0 10px #ff1234
+    }
+
+} */
+.text #pa1, #pa2{
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(242,243,244);
+    font-weight: 1300;
+}
+
+
+/*  */
+/* image slider */
+/* .container{
+    margin-top: 55px;
+    width: 54%;
+    height: 400px;
+    position: absolute;
+    left: 71%;
+    top: 85%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px rgb(231, 253, 255);
+    animation: slider 45s infinite linear;
+    display: inline-block;
+} */
+@keyframes slider{
+    0%{
+        background-image: url(d2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(rain2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(img1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(d3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(rain3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(img4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(de1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(rain4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+/*  */
+.exam2 .h2{
+    background-color: rgba(0, 128, 0, 0);
+    display: inline-block;
+    width: 40%;
+    margin-left: 30px;
+    height: 180px;
+}
+/* .imggallery .im1 img{
+    width: 25%;
+} */
+
+.container1{
+    margin-top: 1000px;
+    width: 25%;
+    height: 240px;
+    position: absolute;
+    left: 12.3%;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px rgb(231, 253, 255);
+    animation: galleryslider 38s infinite linear;
+    display: inline-block;
+}
+@keyframes galleryslider{
+    0%{
+        background-image: url(d2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(rain2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(img1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(d3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(c4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(img4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(d3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(rain4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container2{
+    margin-top: 1000px;
+    width: 25%;
+    height: 240px;
+    position: absolute;
+    left: 37.3%;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px rgb(231, 253, 255);
+    animation: galleryslider1 48s infinite linear;
+    display: inline-block;
+}
+@keyframes galleryslider1{
+    0%{
+        background-image: url(de1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(rain11.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(c2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(c3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(rain3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(ma5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(de1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(rain4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container3{
+    margin-top: 1000px;
+    width: 25%;
+    height: 240px;
+    position: absolute;
+    left: 62.3%;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px rgb(231, 253, 255);
+    animation: galleryslider2 50s infinite linear;
+    display: inline-block;
+}
+@keyframes galleryslider2{
+    0%{
+        background-image: url(oc1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(ma1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(c1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(rain10.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(d3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(ma2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(rain11.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(d3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container4{
+    margin-top: 1000px;
+    width: 25%;
+    height: 240px;
+    position: absolute;
+    left: 87.3%;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px rgb(231, 253, 255);
+    animation: galleryslider3 30s infinite linear;
+    display: inline-block;
+}
+@keyframes galleryslider3{
+    0%{
+        background-image: url(ma9.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(ma8.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(img4.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(c4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(rain8.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(de1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(ma2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(c3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container5{
+    margin-top: 1259px;
+    width: 33.33%;
+    height: 240px;
+    position: absolute;
+    left: 17%;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px rgb(231, 253, 255);
+    animation: galleryslider4 53s infinite linear;
+    display: inline-block;
+}
+@keyframes galleryslider4{
+    0%{
+        background-image: url(c1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(c4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(rain8.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(rain5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(d3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(c3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(ma5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(rain12.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container6{
+    margin-top: 1259px;
+    width: 32.33%;
+    height: 240px;
+    position: absolute;
+    left: 50.33%;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px  rgb(231, 253, 255);
+    animation: galleryslider5 44s infinite linear;
+    display: inline-block;
+}
+@keyframes galleryslider5{
+    0%{
+        background-image: url(rain6.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(rain10.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(rain8.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(rain7.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(ma6.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(d2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(rain6.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(rain5.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+.container7{
+    margin-top: 1259px;
+    width: 33.36%;
+    height: 240px;
+    position: absolute;
+    left: 83.3%;
+    top: -15%;
+    transform: translate(-50%, -50%);
+    background-image: url(img2.jpg);
+    background-size: cover;
+    box-shadow: 2px 6px 15px 5px  rgb(231, 253, 255);;
+    animation: galleryslider6 40s infinite linear;
+    display: inline-block;
+}
+@keyframes galleryslider6{
+    0%{
+        background-image: url(c1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    12.5%{
+        background-image: url(oc1.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    25%{
+        background-image: url(c3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    37.5%{
+        background-image: url(img2.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    50%{
+        background-image: url(rain3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    62.5%{
+        background-image: url(img3.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    75%{
+        background-image: url(rain11.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    87.5%{
+        background-image: url(rain10.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
